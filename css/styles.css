@@ -1,3 +1,8 @@
+/* === ESTILO GLOBAL === */
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Segoe UI', sans-serif;
   margin: 0;
@@ -6,8 +11,20 @@ body {
   color: #ddd;
 }
 
+p {
+  font-size: 1.2rem;
+  color: #dcdcdc;
+}
+
+main {
+  max-width: 1200px;
+  margin: auto;
+  padding: 30px 20px;
+}
+
+/* === HEADER === */
 header {
-  background-color: #000000;
+  background-color: #000;
   color: #f0c040;
   text-align: center;
   padding: 20px;
@@ -22,15 +39,7 @@ h1 {
   position: relative;
   font-size: 2.8rem;
   font-weight: bold;
-  text-align: center;
-  background: linear-gradient(
-    90deg,
-    #ffcc00,
-    #fff7b0,
-    #ffcc00,
-    #ff9900,
-    #ffcc00
-  );
+  background: linear-gradient(90deg, #ffcc00, #fff7b0, #ffcc00, #ff9900, #ffcc00);
   background-size: 300% auto;
   color: transparent;
   background-clip: text;
@@ -40,7 +49,6 @@ h1 {
   z-index: 1;
 }
 
-/* Pseudo-elemento para brilho externo animado */
 h1::before {
   content: attr(data-text);
   position: absolute;
@@ -48,12 +56,10 @@ h1::before {
   left: 0;
   width: 100%;
   height: 100%;
-  color: transparent;
   background: inherit;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-
   filter: blur(8px);
   z-index: -1;
   animation: brilhoInterno 5s linear infinite;
@@ -64,7 +70,7 @@ h1::before {
   100% { background-position: 300% center; }
 }
 
-/* MENU HAMBÚRGUER */
+/* === NAVBAR === */
 .navbar {
   background: #101018;
   padding: 10px 20px;
@@ -106,41 +112,7 @@ h1::before {
   cursor: pointer;
 }
 
-/* RESPONSIVO */
-@media (max-width: 768px) {
-  .nav-links {
-    display: none;
-    flex-direction: column;
-    background: #101018;
-    position: absolute;
-    top: 60px;
-    right: 20px;
-    padding: 10px 20px;
-    border-radius: 8px;
-  }
-
-  .nav-links.active {
-    display: flex;
-  }
-
-  .hamburguer {
-    display: block;
-  }
-}
-
-
-
-p {
-  font-size: 1.2rem;
-  color: #dcdcdc;
-}
-
-main {
-  max-width: 1200px;
-  margin: auto;
-  padding: 30px 20px;
-}
-
+/* === SEÇÕES === */
 .servicos {
   display: flex;
   flex-wrap: wrap;
@@ -182,6 +154,7 @@ iframe.mapa {
   text-decoration: none;
 }
 
+/* === FOOTER === */
 footer {
   background-color: #101018;
   text-align: center;
@@ -190,6 +163,7 @@ footer {
   margin-top: 40px;
 }
 
+/* === POPUP === */
 .popup {
   position: fixed;
   top: 0; left: 0;
@@ -229,6 +203,51 @@ footer {
   cursor: pointer;
 }
 
+/* === RESPONSIVO === */
 @media (max-width: 768px) {
-  .servico { flex: 1 1 100%; }
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    background: #101018;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    padding: 10px 20px;
+    border-radius: 8px;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .hamburguer {
+    display: block;
+  }
+
+  .servico {
+    flex: 1 1 100%;
+  }
+}
+
+#sobre, #lista-servicos, #contato {
+  scroll-margin-top: 100px;
+}
+
+#mapa {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+#mapa h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+iframe.mapa {
+  width: 100%;
+  height: 450px;
+  border: none;
+  display: block;
+  border-radius: 0;
 }

@@ -6,6 +6,10 @@
   <title>R&D TechVale Solutions - Serviços</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
   <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+  <style>
+    html { scroll-behavior: smooth; }
+  </style>
 </head>
 <body>
   <!-- MENU HAMBÚRGUER -->
@@ -15,7 +19,6 @@
       <li><a href="#sobre">Sobre</a></li>
       <li><a href="#lista-servicos">Serviços</a></li>
       <li><a href="#contato">Contatos</a></li>
-      <li><a href="orcamento.html">Orçamento</a></li>
     </ul>
     <div class="hamburguer" id="hamburguer">
       <i class="fas fa-bars"></i>
@@ -28,34 +31,54 @@
     <p>Inovação e tecnologia para o seu sucesso</p>
   </header>
 
-  <section id="sobre" class="sobre">
-  <h2>Sobre Nós</h2>
-  <div class="sobre-conteudo">
-    <img src="img/redlogo.png" alt="Logo R&D TechVale Solutions" class="sobre-logo">
-    <div class="sobre-texto">
-      <p>
-        A <strong>R&D TechVale Solutions</strong> é uma empresa especializada em soluções de tecnologia da informação,
-        oferecendo serviços completos em infraestrutura, computação em nuvem, desenvolvimento de software e inteligência artificial.
-      </p>
-      <p>
-        Com uma equipe altamente qualificada, trabalhamos para transformar desafios tecnológicos em soluções inteligentes
-        e escaláveis, promovendo inovação, agilidade e segurança para empresas de todos os portes.
-      </p>
-    </div>
-  </div>
+  <main>
+    <!-- SOBRE -->
+    <section id="sobre" class="sobre" data-aos="fade-up">
+      <div class="sobre-conteudo">
+        <h2>Sobre Nós</h2>
+        <div class="sobre-texto">
+          <p>
+            A <strong>R&D TechVale Solutions</strong> é uma empresa de tecnologia da informação comprometida em impulsionar a transformação digital. Oferecemos soluções completas em <strong>infraestrutura de TI</strong>, <strong>computação em nuvem</strong>, <strong>desenvolvimento de software personalizado</strong> e <strong>inteligência artificial</strong>, sempre com foco em performance e inovação.
+          </p>
+          <p>
+            Com uma equipe multidisciplinar e altamente qualificada, atuamos de forma estratégica para transformar desafios tecnológicos em <strong>soluções eficientes, inteligentes e escaláveis</strong>. Atendemos empresas de todos os portes com <strong>agilidade, segurança e excelência técnica</strong>, criando valor real e sustentável por meio da tecnologia.
+          </p>
+          <p>
+            Nossa missão é ser um parceiro confiável na jornada de inovação dos nossos clientes, entregando soluções sob medida que impulsionam o crescimento e a competitividade no mercado digital.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVIÇOS -->
+           <h2>Serviços</h2>
+
+    <section class="servicos" id="lista-servicos" data-aos="fade-up">
+    </section>
+    <br>
+
+    <!-- MAPA -->
+    <section id="mapa" data-aos="zoom-in">
+  <h2>Localização</h2>
+  <iframe 
+    class="mapa"
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5799.28640911843!2d-60.05642702379995!3d-3.1011990178819495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x838a7afe075cd2f%3A0xf46b302efb2fe2e2!2sR%26D%20TechVale%20Solutions!5e0!3m2!1spt-BR!2sbr!4v1749431075484!5m2!1spt-BR!2sbr"
+    allowfullscreen=""
+    loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade">
+  </iframe>
 </section>
 
 
-  <main>
-    <section class="servicos" id="lista-servicos"></section>
+    <!-- BOTÃO ORÇAMENTO -->
+    <div id="orcamento" style="text-align: center;" data-aos="fade-up">
+      <a href="orcamento.html" class="botao-orcamento">Peça seu Orçamento</a>
+    </div>
 
-    <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.8581728889844!2d-46.5743849!3d-23.5002155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5cd4b93dc07f%3A0x1dd0b70d88a47b7f!2sCentro%20Empresarial!5e0!3m2!1spt-BR!2sbr!4v1685912748062!5m2!1spt-BR!2sbr" allowfullscreen loading="lazy"></iframe>
-
-    <a href="orcamento.html" class="botao-orcamento">Peça seu Orçamento</a>
-
-    <section id="contato">
+    <!-- CONTATO -->
+    <section id="contato" data-aos="fade-right">
       <h2>Contatos</h2>
-      <p>Email: contato@techvale.com.br<br>WhatsApp: (99) 99999-9999</p>
+      <p><strong>Email:</strong> redtechvalesolutions@gmail.com<br><strong>WhatsApp:</strong> (92) 99517-8534</p>
     </section>
   </main>
 
@@ -72,8 +95,9 @@
   </div>
 
   <script src="js/script.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
-    // Toggle menu
+    AOS.init({ duration: 1000, once: true });
     document.getElementById('hamburguer').addEventListener('click', () => {
       document.querySelector('.nav-links').classList.toggle('active');
     });
