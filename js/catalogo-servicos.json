@@ -10,8 +10,7 @@
           "Atendimento remoto e presencial",
           "Suporte a incidentes e problemas",
           "Solução de dúvidas e treinamento básico",
-          "Registro e acompanhamento de chamados",
-          "Outros"
+          "Registro e acompanhamento de chamados"
         ]
       },
       {
@@ -21,8 +20,7 @@
           "Configuração e monitoramento de switches e roteadores",
           "Gerenciamento de VLANs e sub-redes",
           "Configuração de VPNs para acesso remoto seguro",
-          "Diagnóstico e resolução de falhas de conectividade",
-          "Outros"
+          "Diagnóstico e resolução de falhas de conectividade"
         ]
       },
       {
@@ -32,8 +30,7 @@
           "Instalação e configuração de sistemas operacionais",
           "Gerenciamento de usuários e permissões",
           "Atualizações de segurança e patches",
-          "Otimização de desempenho dos servidores",
-          "Outros"
+          "Otimização de desempenho dos servidores"
         ]
       },
       {
@@ -42,8 +39,7 @@
         "subservicos": [
           "Montagem e substituição de peças (HD, memória, placa de vídeo)",
           "Instalação de estações de trabalho e periféricos",
-          "Configuração de impressoras, scanners e outros dispositivos",
-          "Outros"
+          "Configuração de impressoras, scanners e outros dispositivos"
         ]
       },
       {
@@ -52,8 +48,7 @@
         "subservicos": [
           "Uso de ferramentas como Zabbix, Nagios, PRTG",
           "Criação de alertas e relatórios de desempenho",
-          "Monitoramento de disponibilidade e utilização de recursos",
-          "Outros"
+          "Monitoramento de disponibilidade e utilização de recursos"
         ]
       },
       {
@@ -63,8 +58,7 @@
           "Organização física (rack, cabeamento)",
           "Controle de acesso e segurança física",
           "Gerenciamento de climatização e energia",
-          "Documentação e inventário de equipamentos",
-          "Outros"
+          "Documentação e inventário de equipamentos"
         ]
       },
       {
@@ -73,8 +67,7 @@
         "subservicos": [
           "Criação e configuração de VMs",
           "Alocação de recursos (CPU, RAM, armazenamento)",
-          "Backup e migração de máquinas virtuais",
-          "Outros"
+          "Backup e migração de máquinas virtuais"
         ]
       },
       {
@@ -83,8 +76,7 @@
         "subservicos": [
           "Configuração de rotinas de backup",
           "Testes de restauração periódicos",
-          "Planos de recuperação de desastres (DRP)",
-          "Outros"
+          "Planos de recuperação de desastres (DRP)"
         ]
       },
       {
@@ -93,8 +85,7 @@
         "subservicos": [
           "Planejamento da migração (impacto e riscos)",
           "Transferência de dados e aplicativos",
-          "Testes pós-migração e validação",
-          "Outros"
+          "Testes pós-migração e validação"
         ]
       },
       {
@@ -103,8 +94,7 @@
         "subservicos": [
           "Registro de equipamentos e softwares licenciados",
           "Rastreamento de mudanças de ativos",
-          "Controle de ciclo de vida de ativos",
-          "Outros"
+          "Controle de ciclo de vida de ativos"
         ]
       },
       {
@@ -113,8 +103,7 @@
         "subservicos": [
           "Projeto de cabeamento (UTP, fibra)",
           "Organização e etiquetagem de cabos",
-          "Testes de certificação e continuidade",
-          "Outros"
+          "Testes de certificação e continuidade"
         ]
       },
       {
@@ -123,8 +112,7 @@
         "subservicos": [
           "Monitoramento contínuo dos serviços críticos",
           "Relatórios de disponibilidade e SLA",
-          "Resposta rápida a incidentes de indisponibilidade",
-          "Outros"
+          "Resposta rápida a incidentes de indisponibilidade"
         ]
       }
     ]
@@ -139,8 +127,7 @@
         "subservicos": [
           "Avaliação de requisitos e arquitetura",
           "Planejamento da migração (lift-and-shift, refactoring)",
-          "Execução e testes pós-migração",
-          "Outros"
+          "Execução e testes pós-migração"
         ]
       },
       {
@@ -149,8 +136,7 @@
         "subservicos": [
           "Criação de VMs e recursos virtuais",
           "Configuração de redes e balanceadores",
-          "Monitoramento de consumo de recursos",
-          "Outros"
+          "Monitoramento de consumo de recursos"
         ]
       },
       {
@@ -159,8 +145,7 @@
         "subservicos": [
           "Configuração de serviços de banco de dados gerenciado",
           "Deploy de aplicativos em serviços de nuvem gerenciados",
-          "Integração com serviços de nuvem (API, storage)",
-          "Outros"
+          "Integração com serviços de nuvem (API, storage)"
         ]
       },
       {
@@ -169,8 +154,7 @@
         "subservicos": [
           "Gerenciamento de contas e licenças",
           "Treinamento de usuários finais",
-          "Suporte e configuração de ferramentas SaaS",
-          "Outros"
+          "Suporte e configuração de ferramentas SaaS"
         ]
       },
       {
@@ -179,8 +163,7 @@
         "subservicos": [
           "Configuração de buckets/containers",
           "Automação de backups na nuvem",
-          "Gerenciamento de ciclo de vida de dados",
-          "Outros"
+          "Gerenciamento de ciclo de vida de dados"
         ]
       },
       {
@@ -189,8 +172,7 @@
         "subservicos": [
           "Integração de datacenters locais e nuvem",
           "Configuração de VPNs site-to-site ou Direct Connect",
-          "Sincronização de dados e identidade",
-          "Outros"
+          "Sincronização de dados e identidade"
         ]
       },
       {
@@ -199,8 +181,7 @@
         "subservicos": [
           "Gestão de usuários e grupos (IAM)",
           "Configuração de MFA e políticas de segurança",
-          "Auditoria de acessos e logs",
-          "Outros"
+          "Auditoria de acessos e logs"
         ]
       },
       {
@@ -208,8 +189,7 @@
         "titulo": "Integração com serviços de terceiros (APIs, webhooks)",
         "subservicos": [
           "Configuração de integrações e autenticação (OAuth, API keys)",
-          "Monitoramento de integrações e fluxos de dados",
-          "Outros"
+          "Monitoramento de integrações e fluxos de dados"
         ]
       },
       {
@@ -218,8 +198,7 @@
         "subservicos": [
           "Análise de consumo de recursos",
           "Ajustes de dimensionamento e agendamento",
-          "Recomendações para redução de custos",
-          "Outros"
+          "Recomendações para redução de custos"
         ]
       },
       {
@@ -228,8 +207,7 @@
         "subservicos": [
           "Criação de imagens e containers",
           "Configuração de clusters e serviços",
-          "Gerenciamento de escalabilidade e atualizações",
-          "Outros"
+          "Gerenciamento de escalabilidade e atualizações"
         ]
       }
     ]
@@ -244,8 +222,7 @@
         "subservicos": [
           "Criação de sites responsivos e dinâmicos",
           "Integração com bancos de dados e APIs",
-          "Otimização de performance",
-          "Outros"
+          "Otimização de performance"
         ]
       },
       {
@@ -254,8 +231,7 @@
         "subservicos": [
           "Criação de aplicativos nativos e híbridos",
           "Publicação em lojas (Play Store, App Store)",
-          "Atualizações e correções",
-          "Outros"
+          "Atualizações e correções"
         ]
       },
       {
@@ -264,8 +240,7 @@
         "subservicos": [
           "Desenvolvimento de aplicativos locais",
           "Integração com sistemas existentes",
-          "Pacotes de instalação e manutenção",
-          "Outros"
+          "Pacotes de instalação e manutenção"
         ]
       },
       {
@@ -274,8 +249,7 @@
         "subservicos": [
           "Definição de endpoints e documentação",
           "Autenticação e autorização",
-          "Testes e monitoramento de APIs",
-          "Outros"
+          "Testes e monitoramento de APIs"
         ]
       },
       {
@@ -284,8 +258,7 @@
         "subservicos": [
           "Análise de processos de negócios",
           "Customização e integração de módulos",
-          "Relatórios e dashboards gerenciais",
-          "Outros"
+          "Relatórios e dashboards gerenciais"
         ]
       },
       {
@@ -294,8 +267,7 @@
         "subservicos": [
           "Scripts em Python, PowerShell, Bash",
           "Agendamento de tarefas automáticas",
-          "Relatórios e notificações automatizadas",
-          "Outros"
+          "Relatórios e notificações automatizadas"
         ]
       },
       {
@@ -304,8 +276,7 @@
         "subservicos": [
           "Conexão entre diferentes aplicações",
           "Transformação de dados e sincronização",
-          "Garantia de consistência e performance",
-          "Outros"
+          "Garantia de consistência e performance"
         ]
       },
       {
@@ -314,8 +285,7 @@
         "subservicos": [
           "Implementação de lojas virtuais",
           "Integração com meios de pagamento",
-          "SEO e performance do e-commerce",
-          "Outros"
+          "SEO e performance do e-commerce"
         ]
       },
       {
@@ -324,8 +294,7 @@
         "subservicos": [
           "Levantamento de requisitos personalizados",
           "Protótipos e testes de usabilidade",
-          "Implementação e manutenção",
-          "Outros"
+          "Implementação e manutenção"
         ]
       },
       {
@@ -334,8 +303,7 @@
         "subservicos": [
           "Correção de bugs e vulnerabilidades",
           "Atualização de bibliotecas e frameworks",
-          "Refatoração de código para melhorar performance",
-          "Outros"
+          "Refatoração de código para melhorar performance"
         ]
       }
     ]
