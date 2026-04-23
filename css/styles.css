@@ -14,6 +14,7 @@ body {
 p {
   font-size: 1.2rem;
   color: #dcdcdc;
+  text-align: justify;
 }
 
 main {
@@ -250,4 +251,35 @@ iframe.mapa {
   border: none;
   display: block;
   border-radius: 0;
+}
+
+/* === SLIDE AUTOMÁTICO DE DEPOIMENTOS === */
+.depoimentos-slider {
+  position: relative;
+  min-height: 140px;
+}
+
+.depoimento {
+  position: absolute;
+  width: 100%;
+  opacity: 0;
+  transition: opacity 0.8s ease-in-out;
+  text-align: center;
+}
+
+.depoimento.active {
+  opacity: 1;
+  position: relative;
+}
+
+.depoimento p {
+  font-style: italic;
+  line-height: 1.6;
+  margin-bottom: 12px;
+}
+
+.depoimento span {
+  font-size: 0.9rem;
+  color: #00eaff;
+  opacity: 0.9;
 }
