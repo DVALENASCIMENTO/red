@@ -46,3 +46,25 @@ function trocarDepoimento() {
 if (depoimentos.length > 1) {
   setInterval(trocarDepoimento, 5000); // 5 segundos
 };
+
+// ===============================
+// CARROSSEL AUTOMÁTICO
+// ===============================
+let index = 0;
+
+function iniciarCarrossel() {
+  const slide = document.getElementById("carrossel-slide");
+  const imagens = slide.children;
+
+  setInterval(() => {
+    index++;
+
+    if (index >= imagens.length) {
+      index = 0;
+    }
+
+    slide.style.transform = `translateX(-${index * 100}%)`;
+  }, 3000); // troca a cada 3 segundos
+}
+
+window.addEventListener("load", iniciarCarrossel);
